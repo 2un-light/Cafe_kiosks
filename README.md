@@ -1,4 +1,4 @@
-# ☕ FISA CAFE PROJECT ☕
+# ☕ FISA CAFE PROJECT ☕ 
 
 ## 📋 프로젝트 개요
 - MVC, DAO, DTO 디자인 패턴 이용, 카페 키오스크 구현 (+lombok 라이브러리)
