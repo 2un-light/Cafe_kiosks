@@ -1,20 +1,41 @@
 # ☕ FISA CAFE PROJECT ☕ 
 
-## 📋 프로젝트 개요
+### 📋 프로젝트 개요
 - MVC, DAO, DTO 디자인 패턴 이용, 카페 키오스크 구현 (+lombok 라이브러리)
 - 키오스크 화면에서 해당 가게의 메뉴를 출력한다.
 - 회원이 아닐경우, 비회원 주문을 하거나 회원가입을할 수 있다.
 - 회원가입이 완료되어 회원일 경우, 이름과 전화번호로 해당 가게의 회원인지 조회한 후 메뉴를 주문할 수 있다.
 - 메뉴를 주문하면 총 주문 금액과 해당 고객의 등급(Family, Gold, VIP)을 출력하여 보여준다. 
 
+<br><br>
 
-## 📅 프로젝트 기간
+### 📅 프로젝트 기간
 - 기획 : 2023.05.07
 - 개발 : 2023.05.08 (9:00 ~ 18:00)
 
+<br><br>
+
+### 🛠️ Stacks
+### Languages
+![](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Environment
+![](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+![](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![](https://img.shields.io/badge/DBeaver-3D84C1?style=for-the-badge&logo=dbeaver&logoColor=white)
 
 
-## 😃진행 인원 및 역할
+### VCS
+![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![](https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=gitkraken&logoColor=white)
+![](https://img.shields.io/badge/KDiff3-2D72B8?style=for-the-badge&logo=kde&logoColor=white)
+
+<br><br>
+
+### 😃진행 인원 및 역할
 - 4인
 
 
@@ -58,9 +79,9 @@
 - default data 생성 (Customer, grade, sale)
 - db table과 연동 가능한 데이터 클래스 생성 (customer,grade,menu,sale)
 
+<br><br>
 
-
-## 👀초기화면
+### 👀초기화면
 <details>
 <summary>1. 회원주문</summary>
 <div markdown="1">
@@ -172,9 +193,9 @@
 
 ---
 
+<br><br>
 
-
-## 👩‍ TABLE 구성
+### 👩‍ TABLE 구성
 
 ### 고객(customer) TABLE
 - 고객번호(PK) : VARCHAR(5) 
@@ -230,22 +251,3 @@ ex) 0001/고재민/010-0000-0000/980731/ 남(male)/10000/ /Gold
 | 1 | 2023/05/04 | 9500 | NULL |
 | 2 | 2023/05/05 | 10500 | CM001 |
 | 3 | 2023/05/06 | 4500 | CM002 |
-
-
-
-## 👨‍💻 사용언어 & Tool
-### LANGUAGE
-- JAVA
-- SQL
-
-### TOOL
-- ECLIPSE / IntelliJ
-- VSC
-- MySQL
-- DBeaver
-
-
-### 형상관리 TOOL
-- Github
-- GitKraken
-- KDiff3
